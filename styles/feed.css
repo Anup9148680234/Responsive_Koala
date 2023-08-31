@@ -1,0 +1,11 @@
+.feed_bottom{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
+    grid-gap: 40px;
+}
+
+.cards{
+    height: 220px;
+    width: 220px;
+    border: 1px solid #D4D4D8;
+}

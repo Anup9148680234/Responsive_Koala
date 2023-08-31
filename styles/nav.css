@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    border: 0;
+    font-family: 'Inter',monospace;
+}
+
+nav{
+    background-color:  #0C304B;
+    
+}
+
+.navbar_up{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 4vh;
+}
+
+.right_links{
+    display: flex                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   ;
+}
+
+.right_links a{
+    text-decoration: none;
+    color: white;
+}
+
+.right_link_box{
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    padding-bottom: 30px;
+    transform: translateY(-20px);
+}
+
+.right_link_box img{
+    height: 30px;
+    width: 30px;
+    padding-bottom: 10px;
+}
+
+.search_input input{
+    height: 30px;
+    width: 35vw;
+    padding: 10px;
+}
+
+.search_input input::placeholder{
+    color: #71717A;
+    font-size: 1.05rem;
+}
+
+.serach_button{
+    background: white;
+    height: 50px;
+    width: 50px;
+    transform: translate(-5px, 4px);
+    border: none;
+}
+
+.left_logo{
+    transform: translate(0, 8px);
+}
+
+.navbar_down{
+    background-color: #082032;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem;
+}
+
+.navbar_down__left{
+    padding-left: 4rem;
+}
+
+.navbar_down__left a{ 
+    text-decoration: none;
+    color: white;
+    padding: 0 2rem;
+}
+
+.navbar_down__right{
+    transform: translateX(-5vw);
+    display: flex;
+    padding: 0.5rem;
+}
+
+.navbar_down__right a{
+    text-decoration: none;
+    color: white;
+    padding: 0 2rem;
+}
+
+.swip_text_box{
+    position: absolute;
+    top: 140px;
+    left: 15px;
+    color: white;
+}
+
+.swip_text_head{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.swip_text_context{
+    margin-top: 15px;
+    font-size: 12px;
+}
+
+.swip_text_link{
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.navbar_down__callus{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar_down__callus img{
+    transform: translateX(25px);
+}
+
+.cart_icon{
+    height: 35px!important;
+    width: 35px;
+    
+}
+
+.cart{
+    transform: translateY(-27px);
+}
+
+main{
+    padding: 10vh 5vw;
+}
+
+.feed_top{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.cards{
+    padding: 15px 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.cards img{
+    scale: 0.7;
+    transform: translateY(-5vh);
+}
+
+.cards span{
+    transform: translateY(-3vh);
+}
+
+.cards:hover{
+    transform: translate(-10px ,-10px);
+    box-shadow: 10px 10px 15px 0 #D4D4D8;
+}
+
+footer{
+    display: flex;
+    background-color: #F4F4F5;
+    padding: 10vh 10vw;
+}
+
+.footer_box{
+    padding: 15px 15px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    row-gap: 10px;
+    color: #52525B;
+}
+
+.the_end{
+    background-color: #F4F4F5;
+}
+
+.footer_box form{
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    padding-top: 15px;
+    column-gap: 20px;
+}
+
+form input{
+    margin: 2vh 0;
+    padding: 0px 20px;
+    height: 45px;
+    width: 350px;
+    border: 1px solid #7FC7FB;
+}
+
+form button{
+    color: #F4F4F5;
+    width: 160px;
+    height: 50px;
+    font-style: 1.1rem;
+    background-color: #196195;
+}
+
+.line{
+    position: absolute;
+    left: 10vw;
+    width: 85vw;
+    border-top: 1px solid #E4E4E7;
+}
+
+.the_end{
+    display: flex;
+    justify-self: center;
+    padding-top: 5vh;
+    padding-left: 35vw;
+    padding-right: 35vw;
+    padding-bottom: 5vh;
+    font-size: 12px;
+}
+
+
+
+
+@media (max-width: 1200px){
+    .right_links{
+        display: none;
+    }
+    .navbar_down{
+       
+        flex-direction: column;
+    }
+}
